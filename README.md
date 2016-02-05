@@ -1,1 +1,1 @@
-# VelocityEasingUtils
+Helper functions to add easing to a velocity.js sequence used for the demos in this post: http://franklinta.com/2016/01/31/easing-animation-sequences/. Demo quality code! (doesn't support sequenceQueue, delays, etc)Example usage:    $.Velocity.RunSequence(VelocityEasingUtils.sequenceWithOptions(sequence, {     easing: 'easeInOutCubic' // Easing to apply to animation as a whole    }))Also contains some code for drawing easing graphs on canvas.
